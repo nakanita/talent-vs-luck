@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #
+# 当たり実行関数群：Actのtypeごとに異なる関数が定義されている。
 
 # import numpy as np
 

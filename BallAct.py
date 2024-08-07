@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 #
+# 幸運・不運イベントを表すAct。
+# 画面上では赤、または青の丸として描かれる。
 
 #import pyglet
 from pyglet.gl import *

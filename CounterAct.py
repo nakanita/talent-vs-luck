@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 #
+# シミュレーション経過をメモリ上に記録し、終了時にファイル出力する。
+# このカウンターは１つの（非表示）Act として構成されている。
 
 # import numpy as np
 # import pandas as pd

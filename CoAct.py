@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 #
+# 複数のActを束ねて取りまとめるクラス
+# アプリケーション上では、”RootAct"という名前で全てのActの大元に位置付けられる。
 
 from BaseAct import BaseAct
 

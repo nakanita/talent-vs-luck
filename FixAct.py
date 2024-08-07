@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #
+# シミュレーション舞台の外枠
 
 #import pyglet
 from pyglet.gl import *

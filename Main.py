@@ -103,8 +103,8 @@ class Main( pyglet.window.Window ):
             return  # ここで終了！
         
         # 進行ターン数を出力しておこう
-        print( f"Do Turn {self.Globals.TurnCount}", flush=True)
-        
+        print( f"\rDo Turn {self.Globals.TurnCount}", end="", flush=True)
+            # \r を用いて同じ行に重ね書きしている
         self.RootAct.action()
         self.RootCollis.run()
 

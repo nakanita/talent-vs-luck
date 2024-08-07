@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #
+# 当たり判定バッファ処理
 
 import ColFunc
 import HitFunc

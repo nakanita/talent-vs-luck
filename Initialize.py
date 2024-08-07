@@ -1,15 +1,17 @@
 # -*- coding: utf-8 -*-
 #
+# 各Actの初期設定
+# ここで実質的なアプリケーションの構成を行っている
 
 from G_Vals import G_Vals
 from CoAct import CoAct
 
-import AgentAct
-import BallAct
+from AgentAct import AgentAct
+from BallAct import BallAct
 from FixAct import FixAct
 from CounterAct import CounterAct
 
-import numpy as np
+# import numpy as np
 
 class Initialize:
 
@@ -54,7 +56,7 @@ class Initialize:
         return act
 
     def initAgent(self, id):
-        act = AgentAct.AgentAct(id) # id番号を付与する
+        act = AgentAct(id) # id番号を付与する
         # ここ、RootAct ではなく、AgentCoAct でまとめている
         self.AgentCoAct.put( act, "Agent_" + str(id) )
         return act
@@ -66,12 +68,10 @@ class Initialize:
         else:
             good = False
         
-        act = BallAct.BallAct(good)
-        act.p[0] = self.Globals.FIELD_WIDTH * (np.random.rand() - 0.5)
-        act.p[1] = self.Globals.FIELD_HEIGHT * (np.random.rand() - 0.5)
+        act = BallAct(good)
         self.RootAct.put( act, "Ball_" + str(id) )
         return act
-
+    
     def initCouner(self):
         act = CounterAct()
         self.RootAct.put( act, "Counter" )

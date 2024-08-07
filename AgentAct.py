@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
 #
+# エージェント＝シミュレーション上の主体となる１人の人物。
+# 画面上には、動かない１つの点として表示される。
 
 #import pyglet
 from pyglet.gl import *

@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 #
+# グローバル変数
 
 from Singleton import Singleton
 from CoAct import CoAct
