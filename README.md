@@ -11,6 +11,12 @@ Talent vs Luck のシミュレーションを試してみよう。
     
     pip install pyglet
 
+開発言語・ライブラリバージョン
+
+* python	3.8.13  
+* pyglet	1.5.26  
+* numpy	1.21.5  
+
 ### 実行方法：
 
     python Main.py
