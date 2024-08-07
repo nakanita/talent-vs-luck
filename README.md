@@ -7,14 +7,15 @@ Talent vs Luck のシミュレーションを試してみよう。
 
 ### 環境設定：
 
-    画面描画に Pyglet を利用している。
-    % pip install pyglet
+画面描画に Pyglet を利用している。
+    
+    pip install pyglet
 
 ### 実行方法：
 
-    % python Main.py
+    python Main.py
     
-    * 設定値(グローバル変数)は G_Vals.py に記載されている。
-    * 実行終了すると、シミュレーション結果がjsonファイルに出力される。
+* 設定値(グローバル変数)は G_Vals.py に記載されている。
+* 実行終了すると、シミュレーション結果がjsonファイルに出力される。
         jsonファイル名 : TvL_YYYYMMDDhhmmss.json
         この jsonファイルは、ResultView.ipynb によって見ることができる。
