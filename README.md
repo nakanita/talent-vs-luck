@@ -2,6 +2,7 @@
 Simulation to see which is more important: talent or luck. Based on the paper for the Ignobel Prize 2022 in Economics.
 
 Talent vs Luck のシミュレーションを試してみよう。
+
 [TALENT VERSUS LUCK: THE ROLE OF RANDOMNESS IN SUCCESS AND FAILURE](https://www.worldscientific.com/doi/abs/10.1142/S0219525918500145)
 
 ### 環境設定：
